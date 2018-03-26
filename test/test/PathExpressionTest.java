@@ -13,11 +13,15 @@ package test;
 
 import static org.junit.Assert.assertEquals;
 
+import com.google.common.collect.Iterators;
 import org.junit.Test;
 
 import pathexpression.IRegEx;
 import pathexpression.PathExpressionComputer;
 import pathexpression.RegEx;
+
+import java.util.Iterator;
+import java.util.List;
 
 
 public class PathExpressionTest {
